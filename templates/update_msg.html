@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <head></head>
+    <body>
+        <form method="POST" action="/update_msg">
+            <div>
+                msg_id : 
+                <input type="text" name="msg_id" value="{{msg_id}}" readonly="readonly">
+            </div>
+            <div>
+                msg_text : 
+                <textarea name="msg_text" rows="3" cols="50">{{msgOne}}</textarea>
+            </div>
+            <div>
+                <button type="submit">수정</button>
+            </div>
+        </form>
+    </body>
+</html>
